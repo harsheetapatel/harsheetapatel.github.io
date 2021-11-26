@@ -1,4 +1,4 @@
-/* Set the scroll behavior to smooth so that when you click the in the header, the screen scrolls down rather than jumps */
+52796fabril fatface/* Set the scroll behavior to smooth so that when you click the in the header, the screen scrolls down rather than jumps */
 html {
   scroll-behavior: smooth;
 }
@@ -9,13 +9,13 @@ body {
 }
 
 header, footer {
-  background-color: #ffa500;
+  background-color: #52796f;
   text-align: left;
 /*  min-width: 500px; */
 }
 
 header {
-  font-family: Work Sans;
+  font-family: abril fatface;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -23,6 +23,7 @@ header {
 
 
 main {
+  background-color: black;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(40%, 1fr) ) ;
   grid-gap: 20px;
@@ -35,7 +36,7 @@ main {
 }
 
 h1 {
-  font-family: Poppins;
+  font-family: abril fatface;
   font-size: calc(1em + 3vw);
   padding-bottom: .67em;
   border-bottom: 1px solid;
@@ -43,12 +44,12 @@ h1 {
 }
 
 h2 {
-  font-family: Poppins;
+  font-family: abril fatface;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
+  color: #cad2c5;
   padding: 10px 0px 10px 10px;
 }
 
@@ -58,7 +59,9 @@ img {
   object-fit: cover;
 }
 
-
+a {
+  color: #84a98c;
+}
 .wrapper {
     max-width: 1150px;
     margin: auto;
@@ -69,7 +72,7 @@ img {
 .bio {
   color: #ffffff;
   font-size: 24px;
-  font-family: 'Work Sans';
+  font-family: source sans pro;
 }
 
 
@@ -91,7 +94,7 @@ img {
 }
 
 .myButton:hover {
-    background-color:#e69708;
+    background-color:#84a98c;
 }
 
 .myButton:active {
@@ -121,26 +124,26 @@ img {
 
 .mins {
   display: inline-block;
-  font-family: Poppins;
+  font-family: Halant;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #4a4a4a;
+  color: #84a98c;
   position: relative;
   bottom: 5px;
 }
 
 .description {
-  font-family: Work Sans;
+  font-family: source sans pro;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #4a4a4a;
+  color: white;
   padding: 10px 0px 10px 10px;
-  border-top: 1px solid #4a4a4a;
+  border-top: 1px solid #84a98c;
 }
 
 .logo {
