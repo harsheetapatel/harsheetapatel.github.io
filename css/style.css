@@ -104,7 +104,8 @@ a {
 }
 
 .project {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: solid 1px rgba(255,255,255,.5);
+
   width: 100%;
 }
 
